@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="361.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="118.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to IKEA Philippines">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="37.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRODUCT">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text layoutX="173.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text layoutX="240.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text layoutX="293.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Line endX="212.0" layoutX="124.0" layoutY="194.0" startX="-100.0" />
+      <Line endX="212.0" layoutX="124.0" layoutY="199.0" startX="-100.0" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="87.0" layoutY="-49.0">
+         <image>
+            <Image url="@../../../../../../../../Downloads/ikea-logo-png-transparent.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="product2" layoutX="37.0" layoutY="282.0" prefHeight="48.0" prefWidth="259.0" text="Label" />
+      <Label fx:id="product3" layoutX="37.0" layoutY="343.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="259.0" text="Label" />
+      <Label fx:id="product1" layoutX="37.0" layoutY="225.0" prefHeight="42.0" prefWidth="113.0" text="Label" />
+      <Line endX="100.0" startX="-100.0" />
+      <Line endX="-100.0" endY="252.0" layoutX="250.0" layoutY="209.0" startX="-100.0" />
+      <Line endX="-100.0" endY="252.0" layoutX="320.0" layoutY="209.0" startX="-100.0" />
+      <Line endX="-100.0" endY="252.0" layoutX="387.0" layoutY="209.0" startX="-100.0" />
+   </children>
+</AnchorPane>
